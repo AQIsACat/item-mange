@@ -29,7 +29,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18' # 【修改点1】升级到 Node 18，解决 EBADENGINE 警告
-          cache: 'npm'       # 启用缓存加速
+          # cache: 'npm'       # 启用缓存加速
       
       - name: Install Dependencies
         run: |
