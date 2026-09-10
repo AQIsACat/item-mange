@@ -28,8 +28,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '18' # Vue CLI 5 推荐 Node 18，如果报错可改为 16
-          cache: 'npm'
+          node-version: '16' # Vue CLI 5 推荐 Node 18，如果报错可改为 16
+          # cache: 'npm'
       
       - name: Install Dependencies
         run: npm ci
